@@ -310,3 +310,26 @@
     justify-content: center; /* center vertically */
 }
 
+/* Mobile fixes for Home section */
+@media (max-width: 768px) {
+    .firStsection {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .firStsection > div {
+        width: 100%; /* take full width */
+        margin-top: 20px;
+    }
+
+    .leftSection {
+        font-size: 1.8rem; /* smaller text on mobile */
+    }
+
+    .img1 {
+        width: 80%; /* smaller image */
+        max-width: 300px;
+    }
+}
+
